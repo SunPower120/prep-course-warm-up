@@ -12,7 +12,7 @@ export {};
  * Sales tax is 21% of the price of the product
  */
 
-// You are allowed to change only this function
+// You are allowed to change this function
 function calculateSalesTax() {}
 
 const product = "You don't know JS";
@@ -21,8 +21,8 @@ const salesTax = calculateSalesTax(price);
 
 console.log("Product: " + product);
 console.log("Price: £" + price);
-console.log("Sales tax: £" + salesTax);
-console.log("Total: £" + (price + salesTax));
+console.log("Sales tax: £" + salesTax); // You are allowed to change this log
+console.log("Total: £" + (price + salesTax)); // You are allowed to change this log
 
 /* Expected output:
 
